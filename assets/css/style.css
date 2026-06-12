@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F4F8;
+    padding: 20px;
+}
+
+.item-nome {
+    max-width: 45%;
+}
+
+.item-qtd {
+    min-width: 90px;
+}
+
+.item-preco {
+    min-width: 80px;
+    text-align: right;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.item-nome {
+    max-width: 45%;
+}
+
+.item-qtd {
+    min-width: 90px;
+}
+
+.item-preco {
+    min-width: 80px;
+    text-align: right;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f4f8;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.modal-content {
+    border-radius: 12px;
+    border: none;
+}
+
+.btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+table.dataTable td.dt-type-numeric,
+table.dataTable th.dt-type-numeric {
+    text-align: left;
+}
